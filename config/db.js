@@ -8,3 +8,5 @@ const connectDB = async () => {
     console.log(error.message);
   }
 };
+
+module.exports = connectDB;
